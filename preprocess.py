@@ -8,7 +8,7 @@ import librosa
 import glob
 import librosa.display
 import matplotlib.pyplot as plt
-directory='E:/bdann audio/'
+directory='data/bdann audio/'
 
 from glob import glob
 glob(directory)
