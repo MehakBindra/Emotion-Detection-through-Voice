@@ -16,7 +16,7 @@ glob(directory)
 #Actor_01
 folder_name='Actor_0'
 all_=[]
-for i in range(1,25):
+for i in range(1,10):
     for root, dirs, files in os.walk(directory+folder_name+str(i)+'/'):
         all_.append(files)
 
